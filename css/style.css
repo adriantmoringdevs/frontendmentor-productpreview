@@ -10,9 +10,16 @@ body {
 .container {
     max-width: 35rem;
     display: flex;
-  flex-direction: row;
+  flex-direction:column;
 }
 
+@media (min-width: 600px) {
+.container {
+   flex-direction: row;
+}
+
+
+}
 .text-container {
   display: flex;
   flex-direction: column;
