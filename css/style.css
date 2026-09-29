@@ -11,6 +11,8 @@ body {
     max-width: 35rem;
     display: flex;
   flex-direction:column;
+  border-radius: 1rem;
+   overflow: hidden;
 }
 
 @media (min-width: 600px) {
@@ -24,7 +26,45 @@ body {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  background-color: hsl(0, 0%, 100%);
+  font-family: "Montserrat", sans-serif;
+  color: hsl(228, 12%, 48%);
+  font-size: 14px;
+  padding: 1rem;
+  max-width: 17rem;
 }
+
+.main-header {
+  font-family: "Fraunces", sans-serif;
+  color: hsl(212, 21%, 14%);
+}
+
+.price-container {
+  display: flex;
+  flex-direction: row;
+  padding-right: 2rem;
+  align-items: center;
+}
+
+.main-price {
+  font-family: "Fraunces", sans-serif;
+  color: hsl(158, 36%, 37%);
+  font-weight: 700;
+    
+}
+
+.btn {
+  font-family: "Montserrat", sans-serif;
+  background-color: hsl(158, 36%, 37%);
+  color: hsl(0, 0%, 100%);
+  border-radius: 0.6rem;
+  min-width: 16rem;
+    flex-direction: row;
+  padding-right: 2rem;
+  align-items: center;
+}
+
+
 
 img {
     max-width: 100%;
